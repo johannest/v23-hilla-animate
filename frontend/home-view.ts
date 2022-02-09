@@ -1,0 +1,20 @@
+import {Router} from "@vaadin/router";
+import {html, LitElement} from "lit";
+import {customElement} from 'lit/decorators.js';
+import "@vaadin/vaadin-button";
+
+@customElement('home-view')
+class HomeView extends LitElement {
+
+    protected render() {
+        return html`<h2>HomeView</h2>
+        <p>Hello home</p>
+        <vaadin-button @click=${this.click}>Go to About</vaadin-button>
+        `;
+    }
+
+    click() {
+        Router.go("about");
+    }
+}
+
