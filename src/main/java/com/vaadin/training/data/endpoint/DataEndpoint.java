@@ -1,9 +1,9 @@
 package com.vaadin.training.data.endpoint;
 
 import com.vaadin.flow.server.auth.AnonymousAllowed;
-import com.vaadin.fusion.Endpoint;
-import com.vaadin.fusion.Nonnull;
+
 import com.vaadin.training.data.service.ValueService;
+import dev.hilla.Endpoint;
 
 @Endpoint
 @AnonymousAllowed

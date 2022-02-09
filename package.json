@@ -2,6 +2,8 @@
   "license": "UNLICENSED",
   "name": "no-name",
   "dependencies": {
+    "@hilla/form": "0.0.18",
+    "@hilla/frontend": "0.0.18",
     "@polymer/iron-a11y-announcer": "3.0.2",
     "@polymer/iron-icon": "3.0.1",
     "@polymer/iron-iconset-svg": "3.0.1",
@@ -104,6 +106,7 @@
     "@vaadin/vaadin-radio-button": "23.0.0-beta1",
     "@vaadin/vaadin-rich-text-editor": "23.0.0-beta1",
     "@vaadin/vaadin-select": "23.0.0-beta1",
+    "@vaadin/vaadin-shrinkwrap": "23.0.0-beta1",
     "@vaadin/vaadin-split-layout": "23.0.0-beta1",
     "@vaadin/vaadin-tabs": "23.0.0-beta1",
     "@vaadin/vaadin-template-renderer": "23.0.0-beta1",
@@ -151,6 +154,8 @@
   },
   "vaadin": {
     "dependencies": {
+      "@hilla/form": "0.0.18",
+      "@hilla/frontend": "0.0.18",
       "@polymer/iron-a11y-announcer": "3.0.2",
       "@polymer/iron-icon": "3.0.1",
       "@polymer/iron-iconset-svg": "3.0.1",
@@ -252,6 +257,7 @@
       "@vaadin/vaadin-radio-button": "23.0.0-beta1",
       "@vaadin/vaadin-rich-text-editor": "23.0.0-beta1",
       "@vaadin/vaadin-select": "23.0.0-beta1",
+      "@vaadin/vaadin-shrinkwrap": "23.0.0-beta1",
       "@vaadin/vaadin-split-layout": "23.0.0-beta1",
       "@vaadin/vaadin-tabs": "23.0.0-beta1",
       "@vaadin/vaadin-template-renderer": "23.0.0-beta1",
@@ -290,7 +296,7 @@
       "workbox-precaching": "6.4.2",
       "workbox-webpack-plugin": "6.4.2"
     },
-    "hash": "0e16f7457890b1c53174ed6884ce3cf5b8af587fdc21b9b24f42f91f6223603b"
+    "hash": "e0e69fc87ccda1f9b2be448a8defba3d1056fd8a134ebad545bf5eb951ee6337"
   },
   "overrides": {
     "@vaadin/accordion": "$@vaadin/accordion",
